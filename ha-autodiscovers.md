@@ -9,7 +9,7 @@ Verschiedene Autodiscovery Strings und Umsetzung in Arduino
 **Discovery Topic:**    
   `homeassistant/sensor/entity\_name/config`    
 **Discovery String:**    
-```
+```json
 {
   "name": "Temperature",
   "stat_t": "state/topic",
@@ -22,7 +22,7 @@ Verschiedene Autodiscovery Strings und Umsetzung in Arduino
 **Discovery Topic:**    
   `homeassistant/light/entity\_name/config`    
 **Discovery String:**    
-```
+```json
 {
   "name": "Light",
   "cmd_t": "command/topic",
@@ -38,7 +38,7 @@ Verschiedene Autodiscovery Strings und Umsetzung in Arduino
 **Discovery Topic:**    
   `homeassistant/binary\_sensor/entity\_name/config`    
 **Discovery String:**    
-```
+```json
 {
   "name": "Radar",
   "device_class": "motion",
@@ -53,7 +53,7 @@ Verschiedene Autodiscovery Strings und Umsetzung in Arduino
 **Discovery Topic:**    
   `homeassistant/switch/entity\_name/config`    
 **Discovery String:**    
-```
+```json
 {
   "name": "Outlet",
   "device_class": "switch",
